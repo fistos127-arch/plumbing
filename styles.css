@@ -1,8 +1,8 @@
 :root {
-    --primary: #0077b6;
-    --primary-dark: #005f91;
-    --secondary: #00b4d8;
-    --accent: #90e0ef;
+    --primary: #0d47a1;
+    --primary-dark: #002171;
+    --secondary: #00838f;
+    --accent: #4dd0e1;
     --dark: #1a1a2e;
     --light: #f8f9fa;
     --white: #ffffff;
@@ -234,7 +234,7 @@ img {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #0077b6 0%, #00b4d8 50%, #90e0ef 100%);
+    background: linear-gradient(135deg, #0d47a1 0%, #00838f 50%, #4dd0e1 100%);
     padding-top: 120px;
 }
 
@@ -254,7 +254,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 119, 182, 0.85);
+    background: rgba(13, 71, 161, 0.85);
 }
 
 .hero-content {
