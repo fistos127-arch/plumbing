@@ -236,6 +236,21 @@ img {
     align-items: center;
     background: linear-gradient(135deg, #d32f2f 0%, #c62828 50%, #b71c1c 100%);
     padding-top: 120px;
+    overflow: hidden;
+}
+
+.hero::after {
+    content: 'Howick Falls Plumbers';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(40px, 8vw, 120px);
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.08);
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 0;
 }
 
 .hero::before {
@@ -456,12 +471,30 @@ img {
 .services {
     padding: 100px 0;
     background: var(--white);
+    position: relative;
+    overflow: hidden;
+}
+
+.services::after {
+    content: 'Howick Falls Plumbers';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(30px, 6vw, 80px);
+    font-weight: 700;
+    color: rgba(211, 47, 47, 0.04);
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 0;
 }
 
 .section-header {
     text-align: center;
     max-width: 700px;
     margin: 0 auto 60px;
+    position: relative;
+    z-index: 1;
 }
 
 .section-header h2 {
@@ -481,6 +514,8 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    position: relative;
+    z-index: 1;
 }
 
 .service-card {
@@ -564,12 +599,30 @@ img {
 .contact {
     padding: 100px 0;
     background: var(--light);
+    position: relative;
+    overflow: hidden;
+}
+
+.contact::after {
+    content: 'Howick Falls Plumbers';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(30px, 6vw, 80px);
+    font-weight: 700;
+    color: rgba(211, 47, 47, 0.04);
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 0;
 }
 
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     gap: 60px;
+    position: relative;
+    z-index: 1;
 }
 
 .contact-item {
